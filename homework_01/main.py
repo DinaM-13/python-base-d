@@ -11,9 +11,9 @@ def power_numbers(*numbers):
     return (number ** 2 for number in numbers)
 
 
-list1 = [1, 2, 5, 7]
-g = power_numbers(list1)
-print(g)
+# list1 = [1, 2, 5, 7]
+# g = power_numbers(list1)
+# print(g)
 
 """
 функция, которая принимает N целых чисел,
