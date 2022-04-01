@@ -4,11 +4,13 @@
 # """
 from typing import List
 
+
 def power_numbers(numbers):
     result = []
     for number in numbers:
         result.append(number ** 2)
     return result
+
 
 list1 = [1, 2, 5, 7]
 g = power_numbers(list1)
