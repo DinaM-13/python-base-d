@@ -2,26 +2,25 @@
 # Домашнее задание №1
 # Функции и структуры данных
 # """
-from typing import List
+# from typing import List
 
-
-def power_numbers(numbers):
-    result = []
-    for number in numbers:
-        result.append(number ** 2)
-    return result
+def power_numbers(*numbers):
+    # result = []
+    # for number in numbers:
+    #     result.append(number ** 2)
+    return (number ** 2 for number in numbers)
 
 
 list1 = [1, 2, 5, 7]
 g = power_numbers(list1)
 print(g)
 
-# """
-# функция, которая принимает N целых чисел,
-# и возвращает список квадратов этих чисел
-# >>> power_numbers(1, 2, 5, 7)
-# <<< [1, 4, 25, 49]
-# """
+"""
+функция, которая принимает N целых чисел,
+и возвращает список квадратов этих чисел
+>>> power_numbers(1, 2, 5, 7)
+<<< [1, 4, 25, 49]
+"""
 
 
 # filter types
