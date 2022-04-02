@@ -13,9 +13,6 @@ def power_numbers(*numbers):
     """
     return[number ** 2 for number in numbers]
 
-list1 = [1, 3, 4]
-g = power_numbers(list1)
-print(g)
 
 # filter types
 ODD = "odd"
