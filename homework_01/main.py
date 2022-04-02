@@ -50,4 +50,7 @@ def filter_numbers(numbers, t):
         result = list(filter(is_prime, numbers))
         return result
 
+print(filter_numbers([1, 2, 3, 4], ODD))
+print(filter_numbers([1, 2, 3, 4], EVEN))
+print(filter_numbers([1, 2, 3, 4, 5, 25, 17, 19], PRIME))
 
